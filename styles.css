@@ -1,0 +1,55 @@
+/**
+ * styles.css - Cascading Style Sheets
+ */
+body {
+    margin: 0;
+    background-color: rgba(23, 94, 107, 0.479);
+}
+
+main {
+    background-color: rgba(169, 206, 135, 0.555);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main p {
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+header img {
+    max-width: 600px;
+}
+
+h1, h2 {
+    font-family: arial;
+}
+
+h1 {
+    border-left: solid 10px rgba(16, 91, 134, 0.521);
+    padding: 10px;
+}
+
+footer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(250, 246, 34, 0.753);
+    color: white;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    display: block;
+    margin: 20px;
+    border: solid 10px white;
+}
